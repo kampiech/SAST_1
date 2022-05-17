@@ -1,0 +1,20 @@
+name: Main
+on:
+  push:
+    branches: [ main ]
+    
+env:
+  SPECTRAL_DSN: ${{ secrets.SPECTRAL_DSN }}
+
+jobs:
+  build:
+    name: Spectral
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install
+        uses: spectralops/spectral-github-action@v1
+        with:
+          spectral-dsn: ${{ secrets.SPECTRAL_DSN }}
+      - name: Scan
+        run: spectral scan --ok --include-tags base,audit3
