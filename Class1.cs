@@ -19,5 +19,10 @@ namespace SAST
             var hashProvider3 = new SHA1Managed(); // Sensitive
             var hashProvider4 = HashAlgorithm.Create("SHA1"); // Sensitive
         }
+        
+        public void PlainPassword()
+        {
+            string password = "pass1";
+        }
     }
 }
