@@ -24,5 +24,5 @@ jobs:
           args:             
             # Unique keys of your project and organization. You can find them in SonarCloud > Information (bottom-left menu)
             # mandatory
-            -Dsonar.projectKey=kampiech_SAST_1
+            -Dsonar.projectKey=kampiech_SAST_1_JS
             -Dsonar.organization=kampiech
