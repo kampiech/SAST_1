@@ -8,7 +8,7 @@ namespace SAST
         private void CommandsPath()
         {
             Process p = new Process();
-            p.StartInfo.FileName = "binary"; // Sensitive
+            p.StartInfo.FileName = "binary"; // Sensitive kk
         }
     }
 }
