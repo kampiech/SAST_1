@@ -1,4 +1,4 @@
-name: SonarOther
+name: SonarCloud JS
 on:
   push:
     branches:
