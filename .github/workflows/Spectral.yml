@@ -1,4 +1,4 @@
-name: SPECTRAL
+name: Spectral
 on:
   push:
     branches: [ main ]
