@@ -11,9 +11,9 @@ jobs:
     name: Spectral
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
       - name: Install
-        uses: spectralops/spectral-github-action@v2
+        uses: spectralops/spectral-github-action@v1
         with:
           spectral-dsn: ${{ secrets.SPECTRAL_DSN }}
       - name: Scan
