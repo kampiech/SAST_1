@@ -4,8 +4,11 @@
   "description": "1",
   "main": "file_1.js",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
     "eslint-plugin-security": "^1.5.0",
-    "eslint-plugin-security-node": "^1.1.1"
+    "eslint-plugin-security-node": "^1.1.1",
+    "typescript": "^4.6.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,9 +1,10 @@
 {
-"plugins": [
-"security-node"
-],
-"extends": [
-"plugin:security/recommended",
-"plugin:security-node/recommended"
-]
+	"plugins": [
+	"security-node"
+	],
+	"extends": [
+	"plugin:security/recommended",
+	"plugin:security-node/recommended",
+	"plugin:@typescript-eslint/recommended"
+	]
 }
