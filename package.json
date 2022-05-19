@@ -4,6 +4,7 @@
   "description": "1",
   "main": "file_1.js",
   "devDependencies": {
+    "@types/node": "^17.0.34",
     "@typescript-eslint/eslint-plugin": "^5.25.0",
     "@typescript-eslint/parser": "^5.25.0",
     "eslint-plugin-security": "^1.5.0",

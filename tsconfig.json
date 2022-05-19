@@ -6,7 +6,8 @@
     "preserveConstEnums": true,
     "sourceMap": true
   },
+  "lib": [ "es2018", "dom" ],
   "files": [
-    "cfile_1.ts"
+    "file_1.ts"
   ]
 }
