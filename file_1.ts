@@ -1,9 +1,7 @@
-﻿module.exports.index = async function (req, res) {
-    const value = req.query.value;
+﻿var myarray = [80, 3, 9, 34, 23, 5, 1];
 
-    res.setHeader("Set-Cookie", value);  // Noncompliant
-    res.cookie("connect.sid", value);  // Noncompliant
-};
+myarray.sort();
+console.log(myarray); // outputs: [1, 23, 3, 34, 5, 80, 9]
 
 //Example of DOM open redirect vulnerability (http://vulnerable/page.html#https://www.attacker.com/):
 document.location = document.location.hash.slice(1);
