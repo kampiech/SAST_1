@@ -1,0 +1,9 @@
+{
+"plugins": [
+"security-node"
+],
+"extends": [
+"plugin:security/recommended",
+"plugin:security-node/recommended"
+]
+}

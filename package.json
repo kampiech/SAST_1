@@ -1,0 +1,23 @@
+{
+  "name": "sast",
+  "version": "1.0.0",
+  "description": "1",
+  "main": "file_1.js",
+  "devDependencies": {
+    "eslint-plugin-security": "^1.5.0",
+    "eslint-plugin-security-node": "^1.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kampiech/SAST_1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kampiech/SAST_1/issues"
+  },
+  "homepage": "https://github.com/kampiech/SAST_1#readme"
+}
