@@ -1,8 +1,12 @@
 {
-  "extends": "@tsconfig/node12/tsconfig.json",
   "compilerOptions": {
-    "preserveConstEnums": true
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true
   },
-  "include": ["/**/*"],
-  "exclude": ["node_modules", "**/*.spec.ts"]
+  "files": [
+    "cfile_1.ts"
+  ]
 }
