@@ -14,7 +14,7 @@ namespace SAST
     public class T2 {}
     public class T3 {}
     public class T4 {}
-    public class T5 { public T7 Process(T6 b)}
+    public class T5 { public T7 Process(T6 b) {return null;} }
     public class T6 {}
     public class T7 : T4 {}
     public class T8 {}
