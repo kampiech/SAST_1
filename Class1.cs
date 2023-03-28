@@ -17,6 +17,8 @@ namespace SAST
     public class T5 { public T7 Process(T6 b)}
     public class T6 {}
     public class T7 : T4 {}
+    public class T8 {}
+    public class T9 {}
     
     public class Foo    // Noncompliant - Foo depends on too many classes: T1, T2, T3, T4, T5, T6 and T7
 {
