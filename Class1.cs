@@ -9,6 +9,15 @@ namespace SAST
         WebClient wc = new WebClient();  
     }
     
+    
+    public class T1 {}
+    public class T2 {}
+    public class T3 {}
+    public class T4 {}
+    public class T5 { public T7 Process(T6 b)}
+    public class T6 {}
+    public class T7 : T4 {}
+    
     public class Foo    // Noncompliant - Foo depends on too many classes: T1, T2, T3, T4, T5, T6 and T7
 {
   private T1 a1;    // Foo is coupled to T1
