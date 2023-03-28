@@ -32,10 +32,6 @@ namespace SAST
     return result;
   }
 
-  public static class Bar    // Compliant - Bar depends on 2 classes: T8 and T9
-  {
-    public T8 a8;
-    public T9 a9;
-  }
+
 }
 }
