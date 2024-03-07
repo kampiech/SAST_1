@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-	<PackageReference Include="AngleSharp" Version="0.14.0" />
+	<PackageReference Include="AngleSharp" Version="1.1.2" />
     <PackageReference Include="HtmlSanitizer" Version="5.0.355" />
   </ItemGroup>
 
